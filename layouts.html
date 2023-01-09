@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS layout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        header{
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        footer{
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            padding: 20px;
+            height: 300px;
+            background-color: #ccc;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 20px;
+            color: red;
+
+        }
+        article{
+            background-color: #f1f1f1;
+            padding: 20px;
+            width: 70%;
+            float: left;
+            height: 300px;
+            padding: 20px;
+        }
+        a{
+            color: red;
+        }
+            
+       /* }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+
+        }*/
+
+      h2{
+        color: red;
+      }
+
+    </style>
+</head>
+<body>
+    <h2>css layouts</h2>
+    <p>This is the example for the layout and to learn 
+        how to execute the sections,headers,footers,nav,and article
+    </p>
+    <header>Godavarikhani</header>
+    <section>
+        <nav>
+            <ul style="list-style-type: circle;">
+                <li><a href="#5inclaine">5-in-claine</a></li>
+                <li><a href="8inclaine">8-in-claine</a></li>
+                <li><a href="10inclaine">8-in-claine</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Ramagundam</h2>
+            <p>Ramagundam is the mandal which connect the dists it cnsist the railway station
+                and it has the power plant called JENCO </p>
+                <p>after passing the ramagundam mandal we arrive
+                     to the town called godavarikhani
+                </p>
+        </article>
+    </section>
+    <footer>Footer file</footer>
+</body>
+</html>

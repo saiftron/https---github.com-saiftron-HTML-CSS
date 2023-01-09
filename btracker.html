@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lan=en>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+body {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+.login-form{
+  width: 25%;
+  margin-top: 15%;
+  margin-left: 25%;
+}
+input[type="text"]{
+  padding: 10px;
+  width: 330px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+label{
+  margin-left: 10px;
+  line-height: 22px;
+  font-family: 'Inter', sans-serif;
+}
+input[type="checkbox"]{
+  /* margin-left: 10px; */
+  margin-right: 6px;
+}
+h1{
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+}
+#acc{
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+}
+#fpw{
+  margin-left: 6px;
+  font-family: 'Inter', sans-serif;
+}
+input[type="submit"]{
+  width: 320px;
+  margin-left: 19px;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  margin-right: 0px;
+}
+.main-div{
+  display: flex;
+  justify-content: space-between;
+}
+#coni{
+  width: 150px;
+  margin: 10px auto;
+  font-family: 'Inter', sans-serif;
+}
+#right-img{
+  height: 850px;
+}
+.check{
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+}
+.icons {
+  font-size: 20px;
+  width: 140px;
+  margin: 0px;
+  margin-left: 29%;
+  padding-left: 7px;
+
+}
+.icons>a>i{
+  padding: 8px;
+}
+.one{
+position:absolute;
+left: 50%;
+top: 32%;
+transform:translate(-0%,-50%);
+font-size: 50px;
+color: #fff;
+font-family: 'Inter', sans-serif;
+padding:50px ;
+}
+.two{
+  position:absolute;
+  font-size: 19;
+  color: dimgray;
+  font-family: 'Inter', sans-serif;
+  top: 40%;
+  left: 53%;
+
+}
+
+</style>
+<script src="https://kit.fontawesome.com/f318b85233.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="main-div">
+  <div class="login-form">
+    <img src= "logo3.ico"> 
+  <h1> Sign in</h1>
+  <p id="acc"> Don't have an account? <a href="">sign up</a></p>
+  <form action="/action_page.php">
+    <label style ="text-align:center;"for="fname"><b>Email address:</b></label><br>
+    <input type="text" id="fname" name="fname" value="saif.md@gmail.com"><br>
+    <br><label for="lname"><b>Password</b>:</label><br>
+    <input type="text" id="lname" name="lname" value="*****"><br>
+      <div class="check">
+        <Input type="checkbox" id="person1" name="person1" value="me">Remember me 
+          <a href="" id="fpw"> Forgot password?</a>
+      </div>
+  </form>
+  <input type="submit" value="Sign up">
+  
+  <p id="coni">or continue with</p>
+  <div class="icons">
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-github"></i></a>
+  </div>
+  </div>
+  <div class="container">
+    <img src="./Simple Shiny.svg" alt="no img" id="right-img">
+    <div class="one">Welcome to <br> our community</div>
+    <div class="two"><b>WalletPlus</b> is Free Financial Planner App helps you in Budget planning,<br> Expense tracking for your Personal Financial Discipline.</div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select page</title>
+    <link rel="stylesheet" href="select.css">
+</head>
+<body>
+   <div class="one">
+    <form action="/action_image.php" method="post" autocomplete="on" ></form>
+    <label for="cars"> Choose a bike:</label>
+    <select name="cars" id="cars" size="2" multiple>
+        <option value="R15">R15</option>
+        <option value="yamaha">Yamaha</option>
+        <option value="pulsar" selected>Pulsar</option>
+        <option value="bullet">Bullet</option>
+        <option value="jawa">Jawa</option>
+    </select>
+    <input type="submit" value="select">
+   </div>
+   <br>
+   <div class="two">
+    <form action="/action_image.php">
+        <textarea name="blog" id="blog" cols="30" rows="10"> The cat is playing at the garden</textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+   </div>
+<br>
+<div class="three">
+    <form action="/action_image.php">
+        <button type="button" onclick="alert('hello world!')">Click me</button>
+        <br><br>
+    </form>
+</div>
+<div class="four">
+    <form action="/action_imsge.php">
+        <fieldset>
+            <legend><b>Personal</b></legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" name="fname" id="fname" value="Mike"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" name="lname" id="lname" value="tyson"><br>
+            <br>
+            <input type="submit" value="Log in">
+        </fieldset>
+    </form>
+</div>
+<br><br>
+<div class="five">
+    <form action="/action_image.php">
+        <input list="bname" name="bname">
+        <datalist id="bname">
+            <option value="IE explorer">
+                <option value="firefox">
+                    <option value="chrome">
+                        <option value="opera">
+                            <option value="safari">
+                            </datalist>
+                            <input type="submit" value="submit">
+        
+    </form>
+</div>
+<br><br>
+<div class="six">
+    <form action="action_image.php" 
+    oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0
+    <input type="range" name="a" id="a" value="50">
+    100 +
+    <input type="number" name="b" id="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+    <input type="submit">
+</form>
+</div>
+</body>
+</html>
