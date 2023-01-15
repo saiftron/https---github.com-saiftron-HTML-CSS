@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inputs page </title>
+    <style>
+        label{
+            color: rebeccapurple;
+        }
+        input{
+            color:black;
+        }
+    </style>
 </head>
 <body>
     <form action="action-image.php">
@@ -35,11 +43,37 @@
     <form action="">
         <label for="pwd">password</label>
         <input type="password" name="pwd" id="pwd" placeholder="enter password">
-    </form>
+    </form><br>
     <form action="">
         <label for="search">search</label>
         <input type="search" name="search" id="search" placeholder="what u want">
-    </form>
+    </form><br>
+    <form action="">
+        <label for="image">find image:</label>
+        <input type="image" src="logo" alt="logo"><br>
+        <br>
+        <label for="month">select your bday month:</label>
+        <input type="month" name="month" id="month">
+    </form><br>
+    <form action="">
+        <label for="quantity">select size:</label>
+        <input type="number" name="quantity" id="quantity">
+    </form><br>
+    <form action="">
+        <label for="tel">Enter your number:</label><br><br>
+        <input type="tel" name="tel" id="tel" placeholder="99-59-4030-89" required><br><br>
+        <input type="submit" value="submit"><br><br>
+        <small>Format: 123-456-789-0</small>
+    </form><br>
+    <form action="">
+        <label for="time">select time:</label>
+        <input type="time" name="time" id="time">
+    </form><br><br>
+    <form action="">
+    <label for="week">select week:</label>
+    <input type="week" name="week" id="week">
+</form>
+
    
 </body>
 </html>
